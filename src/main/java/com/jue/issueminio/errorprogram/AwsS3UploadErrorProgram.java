@@ -21,10 +21,11 @@ import java.util.*;
  */
 public class AwsS3UploadErrorProgram {
 
-    public static final String URL = "http://192.168.104.11:9000";
+    // minio version RELEASE.2025-04-08T15-41-24Z
+    public static final String URL = "url";
     public static final String REGION = "my-region";
-    public static final String ACCESS_KEY_ID = "minio";
-    public static final String SECRET_ACCESS_KEY = "Cplh1234";
+    public static final String ACCESS_KEY_ID = "******";
+    public static final String SECRET_ACCESS_KEY = "******";
 
     public static final String RESOURCES_FILE_PATH = "errorprogram/fail.txt";
     public static final String RESOURCES_FILE_PATH_SUCCESS = "errorprogram/success.txt";
